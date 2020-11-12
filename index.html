@@ -5,46 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Ariana Grande!</title>
+    <title>Hello!</title>
     
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
     
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-  </head> 
-  
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300&display=swap" rel="stylesheet">
+    <style>
+      a{
+        text-decoration: none;
+      }
+      
+      a:hover{
+        color: pink;
+      }
+    </style>
+    
+    
+  </head>  
   <body>
-    <h1>Hello there!</h1>
-    <h2> Are you here to know more about Ariana Grande? </h2>
+<h2>Grid of Boxes</h2>
+<p>Float boxes side by side:</p>
 
-    <p>
-      Click <a href="/First.html">Here</a>  to know more about her albums
+<div class="clearfix">
+  <div class="box" style="background-color:#bbb">
+  <p> 
+    <a href="https://www.google.com/"> go to the link</a>
     </p>
-    
-     <p>
-      And <a href="/Second.html">Here</a>  to know more about her personal life!
+  </div>
+  <div class="box" style="background-color:#ccc">
+  <p>Some text inside the box.</p>
+  </div>
+  <div class="box" style="background-color:#ddd">
+  <p>Some text inside the box.</p>
+  </div>
+  <div class="box" style="background-color:#ddd">
+  <p>Some text inside the box.</p>
+  </div>
+  <div class="box" style="background-color:#ccc">
+  <p>Some text inside the box.</p>
+  </div>
+  <div class="box" style="background-color:#bbb">
+  <p>Some text inside the box.</p>
+  </div>
+
+  <p>
+      Go to the <a href="https://www.google.com/">link</a>
     </p>
-    
-<p>
-  Click <a href="/dogs.html">here</a> if you're curious of how many dogs does Ariana have!
-    </p>
-        <p>
-  Click <a href="/traits.html">here</a> if you're curious of her traits!
-    </p>
-      <p>
-      If you need more information, you can also go to google! <br> <br> Here's the link to <a href="https://www.google.com/" target="_blank">Google</a>! <br> You're Welcome!
-    </p>
+</div>
+
+<p>Note that we also use the clearfix hack to take care of the layout flow, and that add the box-sizing property to make sure that the box doesn't break due to extra padding. Try to remove this code to see the effect.</p>
 
 
-    
-     
- 
-
-    
-    
-    
-    
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>

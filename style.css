@@ -1,8 +1,9 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Big Shoulders Stencil Text', cursive;
   margin: 2em;
+  background-image: url("https://cdn.glitch.com/ab60be88-c349-44bd-8dc6-502ee0af734a%2Fflower.jpg?v=1605175161876");
 }
 
 h1 {
@@ -10,12 +11,39 @@ h1 {
   color: #373fff;
 }
 
+* {
+  box-sizing: border-box;
+}
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
 }
-th, td {
-  padding: 5px;
-  text-align: left;    
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+
+  
+  /* unvisited link */
+a:link {
+  color: red;
 }
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+  
